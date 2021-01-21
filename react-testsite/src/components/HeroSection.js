@@ -15,7 +15,7 @@ function HeroSection() {
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          CONTACT <i className='far fa-play-circle' />
+          CONTACT <i className='far fa-comment-alt'/>
         </Button>
        
       </div>

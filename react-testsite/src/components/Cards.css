@@ -1,6 +1,6 @@
 .cards {
     padding: 4rem;
-    background: #fff;
+    background: black;
   }
   
   h1 {
@@ -30,18 +30,20 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    margin-bottom: 1rem;
   }
   
   .cards__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgba(213, 218, 228, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(193, 201, 216, 0.017));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    background-color: white;
   }
   
   /* Category tag  */
@@ -66,8 +68,8 @@
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
-    background-color: #1f98f4;
+    color: white;
+    background-color:black;
     box-sizing: border-box;
   }
   
@@ -95,7 +97,7 @@
   }
   
   .cards__item__text {
-    color: #252e48;
+    color: black;
     font-size: 18px;
     line-height: 24px;
   }
