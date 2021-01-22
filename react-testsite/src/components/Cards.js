@@ -10,34 +10,34 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__item">
             <CardItem
-              src="images/img-9.jpg"
-              text="React Project: GardenShare Application"
+              src="images/getgrowing.png"
+              text="React Project: Get Growing 🌱"
               label="Featured"
               path="/projects"
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="JavaScript Project: 'What's for Dinner?' "
+              src="images/wfd4.jpg"
+              text="JavaScript Project: What's for Dinner? 🍜"
               label="Food/Drink"
               path="/projects"
             />
           </ul>
           <ul className="cards__item">
             <CardItem
-              src="images/img-9.jpg"
-              text="React Project: GardenShare Application"
+              src="images/notetaker.png"
+              text="React Project: Note Taker 📝"
               label="Featured"
               path="/projects"
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="JavaScript Project: 'What's for Dinner?' "
+              src="images/employeedir.png"
+              text="React Project: User Directory"
               label="Food/Drink"
               path="/projects"
             />
             <CardItem
-              src="images/img-2.jpg"
-              text="JavaScript Project: 'What's for Dinner?' "
+              src="images/RSsearch.png"
+              text="JavaScript Project: Recipe Share "
               label="Food/Drink"
               path="/projects"
             />
