@@ -43,12 +43,14 @@
     display: flex;
     align-self: center;
     margin-bottom: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .website-rights{
     color: #fff;
     margin-bottom: 16px;
     font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @media screen and (max-width: 820px){

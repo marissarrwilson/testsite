@@ -6,18 +6,35 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/video-2.mp4" autoPlay loop muted />
+      {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
+      <img src="/images/img-1.jpg" alt="background" />
       <h1>Marissa Wilson</h1>
-      <p>About Me, Web Developer</p>
+      <br></br>
+      <p>
+        Hello World! I am bilingual (French and English) full-stack web
+        developer with experience working with HTML/CSS, JavaScript and React. I
+        am Interested in refining my skills in web design and deepening my
+        knowledge in back-end web development. I'm Looking to utilize my
+        background in environmental science (BSc) to create sustainable
+        solutions through programming. I am most effective at problem-solving
+        and visualizing a themed UI to develop user-friendly web applications.
+        I'm known among coworkers for good communication, work ethic, creativity
+        and attention to detail.
+      </p>
+      <br></br>
+      <p>
+        I am currently seeking an opportunity where I can learn and delve deeper
+        into programming languages such as JavaScript, React and Python.
+      </p>
+      <br></br>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          CONTACT <i className='far fa-comment-alt'/>
+          CONTACT <i className="far fa-comment-alt" />
         </Button>
-       
       </div>
     </div>
   );
