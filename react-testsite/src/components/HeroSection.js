@@ -2,12 +2,16 @@ import React from "react";
 import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
+import Headshot from "../images/headshot.jpeg";
 
 function HeroSection() {
   return (
     <div className="hero-container">
-      {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
+
+      <img src={Headshot} width="500" alt="headshot"/>
+
       <img src="/images/img-1.jpg" alt="background" />
+
       <h1>Marissa Wilson</h1>
       <br></br>
       <p>

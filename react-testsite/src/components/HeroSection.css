@@ -6,6 +6,11 @@ video {
   z-index: -1;
 }
 
+.headshot-img{
+  height: 70vh;
+  width: 50vh;
+}
+
 img {
 object-fit: cover;
   width: 100%;
