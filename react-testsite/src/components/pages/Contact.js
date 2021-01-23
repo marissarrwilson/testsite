@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import HeroSection from '../HeroSection'
+// import HeroSection from '../HeroSection'
 import Footer from '../Footer';
 
 function Contact() {
@@ -8,7 +8,7 @@ function Contact() {
       <>
         <h1 className="contact">CONTACT</h1>;
         <Footer />
-
+        
       </>
   );
 //   ) 
