@@ -2,14 +2,16 @@ import React from "react";
 import "../App.css";
 import { Button } from "./Button";
 import "./HeroSection.css";
-import Headshot from "../images/headshot.jpeg";
+import MyPhoto from "../images/headshot.jpeg";
 
 function HeroSection() {
   return (
     <div className="hero-container">
 
-      <img src={Headshot} width="500" alt="headshot"/>
-
+      <div>
+        <img className="headshot-img" src={MyPhoto} alt="headshot"/>
+      </div>
+      
       <img src="/images/img-1.jpg" alt="background" />
 
       <h1>Marissa Wilson</h1>
@@ -43,5 +45,6 @@ function HeroSection() {
     </div>
   );
 }
+
 
 export default HeroSection;
